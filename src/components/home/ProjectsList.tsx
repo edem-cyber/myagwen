@@ -8,15 +8,33 @@ import {
 
 const projects = [
   {
+    name: "Ultimate Pixels",
+    href: "https://photography-gh.vercel.app/",
+    description: "A photography portfolio for high-resolution image display",
+    external: true,
+  },
+  {
+    name: "2K Construction",
+    href: "https://2kconstruction.com.gh/",
+    description: "A modern construction company website",
+    external: true,
+  },
+  {
+    name: "Frontend Arena",
+    href: "https://thefrontendarena.vercel.app/",
+    description: "An interactive quiz platform for frontend developers",
+    external: true,
+  },
+  {
+    name: "Be A Solution",
+    href: "https://beasolution.vercel.app/",
+    description: "Educational resources for community development",
+    external: true,
+  },
+  {
     name: "HN",
     href: "/hn",
     description: "A minimal hacker news reader",
-    external: false,
-  },
-  {
-    name: "App Dissection",
-    href: "/app-dissection",
-    description: "Breaking down well-designed apps",
     external: false,
   },
   {
@@ -26,15 +44,9 @@ const projects = [
     external: false,
   },
   {
-    name: "AMA",
-    href: "/ama",
-    description: "Ask me anything",
-    external: false,
-  },
-  {
-    name: "TIL",
-    href: "/til",
-    description: "Today I learned",
+    name: "Sites",
+    href: "/sites",
+    description: "A curated list of well-designed websites",
     external: false,
   },
   {
@@ -42,60 +54,6 @@ const projects = [
     href: "/listening",
     description: "Music in rotation",
     external: false,
-  },
-  {
-    name: "Sites",
-    href: "/sites",
-    description: "A curated list of well-designed websites",
-    external: false,
-  },
-  {
-    name: "Shiori",
-    href: "https://www.shiori.sh",
-    description: "A beautifully simple read-it-later app",
-    external: true,
-  },
-  {
-    name: "Staff Design",
-    href: "https://staff.design",
-    description: "Navigating the IC career path",
-    external: true,
-  },
-  {
-    name: "Design Details",
-    href: "https://designdetails.fm",
-    description: "A podcast about design and technology",
-    external: true,
-  },
-  {
-    name: "How to Computer Better",
-    href: "https://brianlovin.notion.site/how-to-computer-better",
-    description: "How to use a computer better",
-    external: true,
-  },
-  {
-    name: "Crit",
-    href: "https://www.youtube.com/playlist?list=PLJu44Klx1pB_8GSOUeDNDllPICvMJKSut",
-    description: "Solicited app redesigns",
-    external: true,
-  },
-  {
-    name: "How Terminals Work",
-    href: "https://how-terminals-work.vercel.app/",
-    description: "A visual guide to understand terminals",
-    external: true,
-  },
-  {
-    name: "HN CLI",
-    href: "https://github.com/brianlovin/hn-cli",
-    description: "Hacker News in your terminal",
-    external: true,
-  },
-  {
-    name: "Tax UI",
-    href: "https://tax-ui.brianlovin.com/",
-    description: "Chat with your tax returns",
-    external: true,
   },
 ];
 

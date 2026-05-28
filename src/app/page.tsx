@@ -4,7 +4,7 @@ import Link from "next/link";
 
 import { ProjectsList } from "@/components/home/ProjectsList";
 import { ChevronRight } from "@/components/icons/ChevronRight";
-import { GitHubIcon, XIcon, YouTubeIcon } from "@/components/icons/SocialIcons";
+import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons/SocialIcons";
 import {
   List,
   ListItem,
@@ -17,9 +17,9 @@ import { buildSlug } from "@/lib/short-id";
 import { getAllWritingPosts } from "@/lib/writing";
 
 export const metadata: Metadata = createMetadata({
-  title: "Brian Lovin",
+  title: "Wendy Edem Ahadome — Frontend Developer",
   description:
-    "Brian Lovin is a designer and software engineer living in San Francisco, currently designing AI products at Notion.",
+    "Frontend Developer from Accra, Ghana. Building beautiful, accessible and responsive interfaces.",
   path: "/",
 });
 
@@ -42,7 +42,7 @@ export default async function Home() {
             <Section>
               <Image
                 src="/img/avatar.jpg"
-                alt="Brian Lovin"
+                alt="Wendy Edem Ahadome"
                 width={60}
                 height={60}
                 draggable={false}
@@ -50,30 +50,28 @@ export default async function Home() {
               />
 
               <h1 id="home-title" className="text-2xl font-semibold">
-                Brian Lovin
+                Frontend Developer
               </h1>
 
               <p className="text-secondary text-2xl font-semibold text-pretty">
-                I&apos;m a software designer living in San Francisco, currently making AI products
-                at Notion.
+                I build beautiful, accessible and responsive interfaces.
               </p>
             </Section>
 
             <Section className="flex flex-row gap-2">
-              <ListItem href="https://x.com/brian_lovin" className="group -ml-1 p-2">
-                <XIcon size={28} className="text-quaternary group-hover:text-primary select-none" />
-              </ListItem>
-              <ListItem href="https://www.youtube.com/@brian_lovin" className="group p-2">
-                <YouTubeIcon
-                  size={32}
-                  className="text-quaternary select-none group-hover:text-[#FF0302]"
-                  playIconClassName="fill-[var(--background-color-main)] sm:fill-[var(--background-color-elevated)]  group-hover:fill-white"
-                />
-              </ListItem>
-              <ListItem href="https://github.com/brianlovin" className="group p-2">
+              <ListItem href="https://github.com/myagwen" className="group -ml-1 p-2">
                 <GitHubIcon
                   size={28}
                   className="text-quaternary group-hover:text-primary select-none"
+                />
+              </ListItem>
+              <ListItem href="https://x.com/mya_gwen" className="group p-2">
+                <XIcon size={28} className="text-quaternary group-hover:text-primary select-none" />
+              </ListItem>
+              <ListItem href="https://linkedin.com/in/wendy-ahadome" className="group p-2">
+                <LinkedInIcon
+                  size={28}
+                  className="text-quaternary select-none group-hover:text-[#0A66C2]"
                 />
               </ListItem>
             </Section>

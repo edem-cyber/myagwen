@@ -9,7 +9,7 @@ import { cn } from "@/lib/utils";
 
 import { SubscribeForm } from "./SubscribeForm";
 
-const CLI_COMMAND = "npm install -g @brianlovin/hn-cli";
+const CLI_COMMAND = "npm install -g @myagwen/hn-cli";
 
 export function HNCLIUpsell({ className }: { className?: string }) {
   const [isSubscribed] = useAtom(hnSubscribedAtom);
@@ -86,7 +86,7 @@ export function HNDigestCard({ className }: { className?: string }) {
             <div className="flex flex-col gap-0">
               <div className="text-quaternary grid grid-cols-4 gap-2 font-mono text-xs">
                 <span>From:</span>
-                <span className="col-span-3">Brian</span>
+                <span className="col-span-3">Wendy</span>
               </div>
               <div className="text-quaternary grid grid-cols-4 gap-2 font-mono text-xs">
                 <span>To:</span>

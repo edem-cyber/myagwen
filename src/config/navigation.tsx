@@ -1,17 +1,11 @@
 import React from "react";
 
-import { AppDissection } from "@/components/icons/AppDissection";
 import { Ballot } from "@/components/icons/Ballot";
-import { Bookmark } from "@/components/icons/Bookmark";
 import { BrowserTabs } from "@/components/icons/BrowserTabs";
-import { Calculator } from "@/components/icons/Calculator";
-import { DoubleChatBubble } from "@/components/icons/DoubleChatBubble";
 import { FileText2 } from "@/components/icons/FileText2";
 import { Headphones3 } from "@/components/icons/Headphones3";
 import { Home } from "@/components/icons/Home";
-import { LightBulb } from "@/components/icons/LightBulb";
 import { Person } from "@/components/icons/Person";
-import { Terminal } from "@/components/icons/Terminal";
 import { Triangle } from "@/components/icons/Triangle";
 import { IconProps } from "@/components/icons/types";
 
@@ -64,39 +58,12 @@ export const navigationItems: NavigationItem[] = [
   },
 
   {
-    id: "app-dissection",
-    label: "App Dissection",
-    href: "/app-dissection",
-    icon: AppDissection,
-    keywords: ["app", "dissection", "analysis"],
-    isActive: (pathname) => pathname.startsWith("/app-dissection"),
-    section: "projects",
-  },
-  {
     id: "stack",
     label: "Stack",
     href: "/stack",
     icon: Ballot,
     keywords: ["stack", "tools", "tech"],
     isActive: (pathname) => pathname.startsWith("/stack"),
-    section: "projects",
-  },
-  {
-    id: "ama",
-    label: "AMA",
-    href: "/ama",
-    icon: DoubleChatBubble,
-    keywords: ["ama", "questions", "ask"],
-    isActive: (pathname) => pathname.startsWith("/ama"),
-    section: "projects",
-  },
-  {
-    id: "til",
-    label: "TIL",
-    href: "/til",
-    icon: LightBulb,
-    keywords: ["til", "today i learned", "notes", "learnings"],
-    isActive: (pathname) => pathname.startsWith("/til"),
     section: "projects",
   },
   {
@@ -115,33 +82,6 @@ export const navigationItems: NavigationItem[] = [
     icon: BrowserTabs,
     keywords: ["sites", "good websites", "websites", "inspiration"],
     isActive: (pathname) => pathname.startsWith("/sites"),
-    section: "projects",
-  },
-  {
-    id: "shiori",
-    label: "Shiori",
-    href: "https://www.shiori.sh",
-    icon: Bookmark,
-    keywords: ["shiori", "read", "later", "bookmarks", "reading list"],
-    isActive: () => false,
-    section: "projects",
-  },
-  {
-    id: "hn-cli",
-    label: "HN CLI",
-    href: "https://github.com/brianlovin/hn-cli",
-    icon: Terminal,
-    keywords: ["hn", "cli", "hacker news", "terminal"],
-    isActive: () => false,
-    section: "projects",
-  },
-  {
-    id: "tax-ui",
-    label: "Tax UI",
-    href: "https://tax-ui.brianlovin.com/",
-    icon: Calculator,
-    keywords: ["tax", "taxes", "returns", "chat", "visualize"],
-    isActive: () => false,
     section: "projects",
   },
 ];

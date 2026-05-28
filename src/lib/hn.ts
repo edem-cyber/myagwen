@@ -15,7 +15,7 @@ import { HackerNewsComment, HackerNewsPost } from "@/types/hackernews";
 /** Default revalidation for HN data (matches Redis cache TTL). */
 const HN_REVALIDATE = 3600;
 
-const BASE_URL = "https://brianlovin.com";
+const BASE_URL = "https://www.myagwen.com";
 const TOP_BASE_URL = "https://hacker-news.firebaseio.com/v0";
 const ITEM_BASE_URL = "https://api.hnpwa.com/v0";
 

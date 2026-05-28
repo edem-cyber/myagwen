@@ -4,20 +4,20 @@ import type { Metadata } from "next";
  * Site-wide metadata constants
  */
 export const SITE_CONFIG = {
-  name: "Brian Lovin",
-  title: "Brian Lovin",
+  name: "Wendy Edem Ahadome",
+  title: "Wendy Edem Ahadome — Frontend Developer",
   description:
-    "Designer and software engineer living in San Francisco. Currently designing AI products at Notion.",
-  url: "https://brianlovin.com",
+    "Frontend Developer from Accra, Ghana. Building beautiful, accessible and responsive interfaces.",
+  url: "https://www.myagwen.com",
   author: {
-    name: "Brian Lovin",
-    twitter: "@brian_lovin",
-    twitterUrl: "https://x.com/brian_lovin",
-    github: "https://github.com/brianlovin",
+    name: "Wendy Edem Ahadome",
+    twitter: "@mya_gwen",
+    twitterUrl: "https://x.com/mya_gwen",
+    github: "https://github.com/myagwen",
   },
   social: {
     twitter: {
-      handle: "@brian_lovin",
+      handle: "@mya_gwen",
       cardType: "summary_large_image" as const,
     },
   },
@@ -74,7 +74,7 @@ export const DEFAULT_METADATA: Metadata = {
   },
   manifest: "/site.webmanifest",
   appleWebApp: {
-    title: "Brian Lovin",
+    title: "Wendy Edem Ahadome",
   },
 };
 
@@ -228,13 +228,13 @@ export function createPersonJsonLd() {
     sameAs: [
       SITE_CONFIG.author.twitter,
       SITE_CONFIG.author.github,
-      "https://www.youtube.com/@brian_lovin",
+      "https://www.linkedin.com/in/wendy-ahadome",
     ],
-    jobTitle: "Product Designer",
+    jobTitle: "Frontend Developer",
     worksFor: {
       "@type": "Organization",
-      name: "Notion",
-      url: "https://notion.com",
+      name: "Huvacliq Technologies",
+      url: "https://huvacliq.com",
     },
   };
 }

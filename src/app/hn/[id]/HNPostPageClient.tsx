@@ -63,7 +63,7 @@ export default function HNPostPageClient({ initialPost }: HNPostPageClientProps)
   useEffect(() => {
     if (post?.title) {
       const cleanTitle = stripHtmlTags(post.title);
-      document.title = `${cleanTitle} | Brian Lovin`;
+      document.title = `${cleanTitle} | Wendy Edem Ahadome`;
     }
   }, [post?.title]);
 
